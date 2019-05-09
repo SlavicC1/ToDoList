@@ -1,0 +1,17 @@
+.b-timer-zone
+{
+
+}
+
+.b-timer-zone
+{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    color: #550000;
+    font-size: 40pt;
+    text-align: center;
+    background: #dd4444;
+    border-radius: 10px;
+    border: 3px solid #993333;
+}
