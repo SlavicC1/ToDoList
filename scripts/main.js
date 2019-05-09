@@ -28,9 +28,9 @@ var toDoList = (function(){
     this.AddElement = function(name,text){
         elements.push(new Element(name,text));
     }
-    this.Update = function(){
-        
-    }
+    //this.Update = function(){
+    //
+    //}
     var removeElement = function(nom){
         setTimeout(function(){
             elements.splice(nom);
@@ -75,4 +75,4 @@ toDoList.Show();
 setInterval(function(){ 
     timer.Update(); 
     timer.SetTimer();
-},100);
+},1000);
